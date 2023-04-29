@@ -1,0 +1,47 @@
+$lightGreen: #b9e7e7;
+
+.app {
+    .container{
+        .auth {
+            background-color: $lightGreen;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+            form {
+                display: flex;
+                background-color: white;
+                flex-direction: column;
+                width: 200px;
+                padding: 50px;
+                gap: 20px;
+
+                input{
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid gray;
+                    padding: 10px;
+                }
+
+                button {
+                    border: none;
+                    color: white;
+                    background-color: teal;
+                    padding: 10px;
+                }
+
+                span {
+                    text-align: center;
+                    font-size: 12px;
+                }
+
+                p {
+                    text-align: center;
+                    color: red;
+                }
+            }
+        }
+    }
+}
